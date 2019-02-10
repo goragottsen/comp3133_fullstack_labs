@@ -18,5 +18,3 @@ fs.readdir(process.cwd(), function (err, files) {
         } 
     });
 });
-
-/Users/goragottsen/Desktop/gbc/comp3133/labs/lab5/ex1.js
