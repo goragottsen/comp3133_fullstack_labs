@@ -11,7 +11,7 @@ fs.readdir(process.cwd(), function (err, files) {
     if (err) {
         return console.log('Unable to scan directory: ' + err);
     } 
-    // list teh files
+    // list the files
     files.forEach(function (file) {
         if(file.indexOf('.'+args[0]) > -1) {
             console.log(file); 
